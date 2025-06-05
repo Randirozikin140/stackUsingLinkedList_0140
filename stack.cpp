@@ -96,6 +96,8 @@ int main() {
             cout << "Exiting program." << endl;
             break;
         default:
+            cout << "Invalid choice.Try again." << endl;
+            break;
 
         }
     }
