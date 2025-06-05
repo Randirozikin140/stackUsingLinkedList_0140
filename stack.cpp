@@ -90,8 +90,9 @@ int main() {
             stack.pop(); // pop the topmost element from the stack
             break;
         case 3:
-            stack.peek(); 
+            stack.peek(); // Display the elements in the stack
             break;
+
         }
     }
 }
