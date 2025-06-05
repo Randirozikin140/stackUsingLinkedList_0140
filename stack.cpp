@@ -38,7 +38,7 @@ public:
     }
 
     void pop() {
-        Node *temp = top;
+        Node *temp = top; 
         if (isEmpty()) {
             cout << "Stack is Empty :" << endl;
             return;
@@ -107,4 +107,5 @@ int main() {
 
     return 0;
 }
+// code berhasil run dengan baik, stack berfungsi dengan baik, push, pop, dan peek berfungsi dengan baik.
 
