@@ -36,5 +36,14 @@ public:
     bool isEmpty() {
         return top == NULL;
     }
+
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack isEmpty :" << endl;
+            return;
+        }
+        cout << "Popped value :" << top->data << endl;
+        top = top->next; 
+    }
 };
 
