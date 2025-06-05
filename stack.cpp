@@ -45,5 +45,12 @@ public:
         cout << "Popped value :" << top->data << endl;
         top = top->next; 
     }
+
+    void peek() {
+        if (isEmpty()) {
+            cout << "List isEmpty :" << endl;
+            return;
+        }
+    }
 };
 
