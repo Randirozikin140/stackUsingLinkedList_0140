@@ -92,6 +92,9 @@ int main() {
         case 3:
             stack.peek(); // Display the elements in the stack
             break;
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
 
         }
     }
