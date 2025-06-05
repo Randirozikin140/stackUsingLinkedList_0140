@@ -62,7 +62,14 @@ public:
                 current = current->next;
             }
             cout << endl;
-        }
+        } // return the value of the top node
     }
 };
+
+int main() {
+    stack stack;
+
+    int choice = 0;
+    int value;
+}
 
