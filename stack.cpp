@@ -87,7 +87,7 @@ int main() {
             stack.push(value); // Push the value onto the stack
             break;
         case 2:
-            stack.pop(); 
+            stack.pop(); // pop the topmost element from the stack
             break;
 
         }
